@@ -1,0 +1,14 @@
+puts 5**2
+puts 5**0.5
+puts 7/3
+puts 7%3
+puts 365%7
+
+puts 40.0 % 3
+puts 10 % 0.3
+puts 20.2 % 0.5
+puts 20.0 % 0.5
+puts 0.2 % 0.5
+
+puts (5-2).abs
+puts (2-5).abs
