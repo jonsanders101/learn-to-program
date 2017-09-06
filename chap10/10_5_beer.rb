@@ -1,8 +1,38 @@
+def bottles
+print "How many bottles of beer are on the wall? >> "
+bottles = gets.chomp.to_i
+
+while bottles != 0
+  puts (english_number bottles).capitalize + ' bottles of beer on the wall'
+  puts (english_number bottles).capitalize + ' bottles of beer'
+  bottles -= 1
+  puts 'Take one down, pass it around'
+
+  if bottles == 1
+    puts (english_number bottles).capitalize + ' bottle of beer on the wall'
+  else
+    puts (english_number bottles).capitalize + ' bottles of beer on the wall'
+  end
+
+  puts ''
+
+  if bottles == 1
+    puts (english_number bottles).capitalize + ' bottle of beer on the wall'
+    puts (english_number bottles).capitalize + ' bottle of beer'
+    bottles = bottles - 1
+    puts 'Take one down, pass it around'
+    puts (english_number bottles).capitalize + ' bottles of beer on the wall'
+  end
+
+end
+end
+
 def english_number number
   if number < 0
     return 'Please enter a number that isn\'t negative.'
-  endif number == 0
-  return 'zero'
+  end
+  if number == 0
+  return 'No more'
 end
 num_string = ''
 
@@ -97,5 +127,4 @@ end
 num_string
 end
 
-puts english_number(456)
-puts english_number(1000000000000)
+bottles
