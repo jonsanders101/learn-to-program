@@ -14,10 +14,10 @@ world = [[o,o,o,o,o,o,o,o,o,o,o],
          [o,o,o,o,o,o,o,o,o,o,o]]
 
 def continent_size world, x, y
-  if world[y][x] == nil
+  if x < 0 || y < 0 || y < world.length-1 || x < world[y].length-1
     return 0
   end
-  
+
   if world[y][x] != 'land'
     return 0
   end

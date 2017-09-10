@@ -97,5 +97,5 @@ end
 num_string
 end
 
-puts english_number(456)
-puts english_number(1000000000000)
+puts "Enter a number."
+puts (english_number gets.chomp.to_i).capitalize

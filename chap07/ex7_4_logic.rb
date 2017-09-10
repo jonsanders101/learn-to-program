@@ -1,7 +1,7 @@
 puts 'Hello, what\'s your name?'
   name = gets.chomp
   puts 'Hello, ' + name + '.'
-if name == ('Jon' || 'Jack')
+if name == 'Jon' || name == 'Jack')
   puts 'What a lovely name!'
 end
 
@@ -28,7 +28,8 @@ puts !i_am_chris
 puts "***"
 
 while true
-puts 'What would you like to ask C to do?' request = gets.chomp
+puts 'What would you like to ask C to do?'
+request = gets.chomp
   puts 'You say, "C, please ' + request + '"'
   puts 'C\'s response:'
   puts '"C '    + request + '."'

@@ -64,3 +64,5 @@ class Integer
             'I' * i
     end
 end
+puts "Enter a number and I'll return it in roman numerals."
+puts (gets.chomp.to_i).roman_numeral

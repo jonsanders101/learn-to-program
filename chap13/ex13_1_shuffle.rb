@@ -8,3 +8,9 @@ class Array
     return shuffled_array
   end
 end
+
+test1 = ['this', 'is', 'a', 'test', 'array']
+test2 = [1, 2, 3, 4, 5, 6, 7]
+
+puts test1.shuffle
+puts test2.shuffle
