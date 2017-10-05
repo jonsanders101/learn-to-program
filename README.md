@@ -1,4 +1,5 @@
-# learn-to-program
-Following Chris Pine’s 'Learn to Program' for the Makers Academy Pre-Course
+# 'Learn to Program' by Chris Pine - My Solutions
 
-These files contain copied code examples and solutions to exercises from 'Learn to Program'
+These files contain copied code examples and solutions to exercises from Chris Pine's 'Learn to Program' Ruby tutorial book.
+
+https://pine.fm/LearnToProgram
